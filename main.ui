@@ -1,0 +1,25 @@
+<interface>
+
+    <object id="window" class="GtkWindow">
+        <property name="visible">True</property>
+        <property name="title">RM2K3 Easy Event Editor</property>
+        <property name="border-width">10</property>
+
+        <child><object id="grid" class="GtkGrid">
+            <property name="visible">True</property>
+
+            <child><object id="properties_box" class="GtkBox">
+                <property name="visible">True</property>
+
+                <child><object id="properties_title" class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="label">Properties</property>
+                </object></child>
+
+            </object></child>
+
+        </object></child>
+
+    </object>
+
+</interface>
